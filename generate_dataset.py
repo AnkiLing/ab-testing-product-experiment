@@ -26,3 +26,5 @@ df = pd.DataFrame({
 df.to_csv("ab_test_data.csv", index=False)
 
 print("Dataset created: ab_test_data.csv")
+
+python generate_dataset.py
